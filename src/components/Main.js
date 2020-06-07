@@ -87,55 +87,55 @@ class Main extends React.Component {
         // Only display calculation if all fields are filled
         const costDisplay = (!isNaN(this.state.cityMileage) && !isNaN(this.state.highwayMileage) && !isNaN(this.state.price) && this.state.cityMileage !== '' && this.state.highwayMileage !== '' && this.state.price !== '')
             ? <p><strong>${costPerMile.toFixed(2)}</strong> per mile</p>
-            : <p class="warning">~Complete the form to calculate your vehicle's cost~</p>
+            : <p className="warning">~Complete the form to calculate your vehicle's cost~</p>
 
         return costDisplay;
     }
 
     render() {
         return (
-            <main class="main-content">
+            <main className="main-content">
 
-                <div class="title-section">
+                <div className="title-section">
                     <h1>RIDESHARE PROFITABILITY CALCULATOR</h1>
-                    <p class="disclaimer">
+                    <p className="disclaimer">
                         *Calculations account for fuel, maintenence, repairs, and depreciation costs. Auto insurance, licensing, registration, taxes, and financing are not included. All values assume 15,000 miles annually and are sourced from
                         <a href="https://exchange.aaa.com/automotive/driving-costs/#.XtwAYJ5Kiu4"> https://exchange.aaa.com/automotive/driving-costs/#.XtwAYJ5Kiu4</a>
                     </p>
                 </div>
 
                 <form>
-                    <div class="lottie-container form-section">
+                    <div className="lottie-container form-section">
                         {vehicles[this.state.selectedVehicle].type}
                     </div>
 
-                    <div class="form-section">
+                    <div className="form-section">
                         <p>What type of vehicle do you drive?</p>
-                        <p class="disclaimer">*Type used to calculate cost of maintenance, repairs, and depreciation.</p>
+                        <p className="disclaimer">*Type used to calculate cost of maintenance, repairs, and depreciation.</p>
                         <input type="range" min="0" max={vehicles.length - 1} value={this.state.selectedVehicle} id="type-slider" onChange={this.handleSlider}/>
                         <p>{vehicles[this.state.selectedVehicle].type}</p>
                     </div>
 
-                    <div class="form-section">
+                    <div className="form-section">
                         <p>What is your vehicle's gas mileage? (MPG)</p>
                         <input type="number" placeholder="City" value={this.state.cityMileage} onChange={this.handleCityMileage} required></input>
                         <br/>
                         <input type="number" placeholder="Highway" value={this.state.highwayMileage} onChange={this.handleHighwayMileage}required></input>
                     </div>
 
-                    <div class="form-section">
+                    <div className="form-section">
                         <p>What is the current price of gas? (Gal)</p>
                         <input type="number" placeholder="Price" value={this.state.price} onChange={this.handlePrice} required></input>
                     </div>
 
-                    <div class="form-section">
-                        <input type="checkbox" id="depreciation-checbox" value={this.state.includeDepreciation} onChange={this.handleDepreciation}></input>
-                        <label for="depreciation-checbox">Include Depreciation?</label>
+                    <div className="form-section">
+                        <input type="checkbox" id="depreciation-checkbox" value={this.state.includeDepreciation} onChange={this.handleDepreciation}></input>
+                        <label htmlFor="depreciation-checkbox">Include Depreciation?</label>
                     </div>
 
                     <div>
                         <p>TOTAL COST (USD):</p>
-                        <p>{this.calculateCost()}</p>
+                        {this.calculateCost()}
                     </div>
                 </form>
             </main>
