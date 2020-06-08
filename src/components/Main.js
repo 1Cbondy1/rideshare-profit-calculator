@@ -146,7 +146,10 @@ class Main extends React.Component {
                 </main>
 
                 <section className="donate-section">
-                    Donate:
+                    <span>Donate: </span>
+                    <img src="./donate-btc.jpg" alt="Bitcoin QR Code" />
+                    <img src="./donate-bch.jpg" alt="Bitcoin Cash QR Code" />
+                    <img src="./donate-eth.jpg" alt="Ethereum QR Code" />
                 </section>
             </>
         );

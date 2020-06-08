@@ -155,8 +155,15 @@ form {
 }
 
 .donate-section {
+    display: flex;
+    align-items: center;
     text-align: left;
     margin-left: 24px;
+}
+
+.donate-section img {
+    margin-left: 12px;
+    width: 120px;
 }
 
 input[type="checkbox"] {
