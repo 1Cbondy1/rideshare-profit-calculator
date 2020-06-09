@@ -98,16 +98,6 @@ class Main extends React.Component {
     render() {
         return (
             <>
-                <section> 
-                    <div className="title-section">
-                        <h1>RIDESHARE PROFITABILITY CALCULATOR</h1>
-                        <p className="disclaimer">
-                            *This application is intended to calculate the true cost your vehicle in order to determine the profitability of driving for a rideshare service. Calculations account for fuel, maintenence, repairs, and depreciation costs. Auto insurance, licensing, registration, taxes, and financing are not included. All values assume 15,000 miles annually and are sourced from
-                            <a href="https://exchange.aaa.com/automotive/driving-costs/#.XtwAYJ5Kiu4"> https://exchange.aaa.com/automotive/driving-costs/#.XtwAYJ5Kiu4</a>
-                        </p>
-                    </div>
-                </section>
-
                 <main className="main-content">
                     <form>
                         <div className="lottie-container">
