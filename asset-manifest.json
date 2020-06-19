@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/rideshare-profit-calculator/static/css/main.8bb8894e.chunk.css",
-    "main.js": "/rideshare-profit-calculator/static/js/main.0273aa05.chunk.js",
-    "main.js.map": "/rideshare-profit-calculator/static/js/main.0273aa05.chunk.js.map",
+    "main.css": "/rideshare-profit-calculator/static/css/main.1026b6f9.chunk.css",
+    "main.js": "/rideshare-profit-calculator/static/js/main.f9d6a2bc.chunk.js",
+    "main.js.map": "/rideshare-profit-calculator/static/js/main.f9d6a2bc.chunk.js.map",
     "runtime-main.js": "/rideshare-profit-calculator/static/js/runtime-main.85c0e2af.js",
     "runtime-main.js.map": "/rideshare-profit-calculator/static/js/runtime-main.85c0e2af.js.map",
     "static/js/2.183a5b64.chunk.js": "/rideshare-profit-calculator/static/js/2.183a5b64.chunk.js",
     "static/js/2.183a5b64.chunk.js.map": "/rideshare-profit-calculator/static/js/2.183a5b64.chunk.js.map",
     "index.html": "/rideshare-profit-calculator/index.html",
-    "precache-manifest.2acf33c74930a0785fdef70c6d30f96e.js": "/rideshare-profit-calculator/precache-manifest.2acf33c74930a0785fdef70c6d30f96e.js",
+    "precache-manifest.dff453806151a83c1f368245064b6a91.js": "/rideshare-profit-calculator/precache-manifest.dff453806151a83c1f368245064b6a91.js",
     "service-worker.js": "/rideshare-profit-calculator/service-worker.js",
-    "static/css/main.8bb8894e.chunk.css.map": "/rideshare-profit-calculator/static/css/main.8bb8894e.chunk.css.map",
+    "static/css/main.1026b6f9.chunk.css.map": "/rideshare-profit-calculator/static/css/main.1026b6f9.chunk.css.map",
     "static/js/2.183a5b64.chunk.js.LICENSE.txt": "/rideshare-profit-calculator/static/js/2.183a5b64.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.85c0e2af.js",
     "static/js/2.183a5b64.chunk.js",
-    "static/css/main.8bb8894e.chunk.css",
-    "static/js/main.0273aa05.chunk.js"
+    "static/css/main.1026b6f9.chunk.css",
+    "static/js/main.f9d6a2bc.chunk.js"
   ]
 }
