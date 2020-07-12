@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8d0baacd8b7a549c319b7ac4ed928019",
+    "revision": "2619528e09ded81302c9069507d06084",
     "url": "/rideshare-profit-calculator/index.html"
   },
   {
-    "revision": "8d8dd902dae345a0f8e7",
+    "revision": "29cc95369ec0fcc0a8d1",
     "url": "/rideshare-profit-calculator/static/css/main.1026b6f9.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/rideshare-profit-calculator/static/js/2.183a5b64.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8d8dd902dae345a0f8e7",
-    "url": "/rideshare-profit-calculator/static/js/main.f9d6a2bc.chunk.js"
+    "revision": "29cc95369ec0fcc0a8d1",
+    "url": "/rideshare-profit-calculator/static/js/main.2f320b92.chunk.js"
   },
   {
     "revision": "4d6bf8883e548178c583",
