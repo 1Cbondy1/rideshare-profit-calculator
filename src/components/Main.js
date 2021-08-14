@@ -105,7 +105,7 @@ class Main extends React.Component {
                         </div>
                         <div className="form-section">
                             <p>What type of vehicle do you drive?</p>
-                            <p className="disclaimer">*Type used to calculate cost of maintenance, repairs, and depreciation.</p>
+                            <p className="disclaimer on">*Type used to calculate cost of maintenance, repairs, and depreciation.</p>
                             <input type="range" min="0" max={vehicles.length - 1} value={this.state.selectedVehicle} id="type-slider" onChange={this.handleSlider}/>
                             <p>{vehicles[this.state.selectedVehicle].type}</p>
                         </div>
@@ -135,12 +135,12 @@ class Main extends React.Component {
                     </div>
                 </main>
 
-                <section className="donate-section">
+                {/* <section className="donate-section">
                     <span>Donate: </span>
                     <img src="./donate-btc.jpg" alt="Bitcoin QR Code" />
                     <img src="./donate-bch.jpg" alt="Bitcoin Cash QR Code" />
                     <img src="./donate-eth.jpg" alt="Ethereum QR Code" />
-                </section>
+                </section> */}
             </>
         );
     }

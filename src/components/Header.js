@@ -14,9 +14,9 @@ class Header extends React.Component {
         return (
             <header> 
                 <div className="title-section">
-                    <h1>RIDESHARE COST CALCULATOR</h1>
+                    <h1>THE REAL COST OF RIDESHARE</h1>
                     <div className={`trigger ${!this.state.hidden && "info-on"}`} onClick={() => this.handleClick()}>
-                        Info<span>▼</span>
+                        What is this?<span>▼</span>
                     </div>
                     <p className={`disclaimer ${!this.state.hidden && "info-on"}`}>
                         This tool is intended to calculate the true cost of operating your vehicle for a rideshare service. Calculations account for fuel, maintenance, repairs, and depreciation costs. Auto insurance, licensing, registration, taxes, and financing are not included. All values assume 15,000 miles annually and are sourced from

@@ -130,6 +130,12 @@ form {
     transition: .25s all;
 }
 
+.disclaimer.on {
+    text-align: center;
+    height: auto;
+    opacity: 1;
+}
+
 .disclaimer.info-on {
     transform: translateY(5px);
     padding-bottom: 80px;
