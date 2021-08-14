@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/rideshare-profit-calculator/static/css/main.cf24bcfd.chunk.css",
-    "main.js": "/rideshare-profit-calculator/static/js/main.35d5695e.chunk.js",
-    "main.js.map": "/rideshare-profit-calculator/static/js/main.35d5695e.chunk.js.map",
-    "runtime-main.js": "/rideshare-profit-calculator/static/js/runtime-main.85c0e2af.js",
-    "runtime-main.js.map": "/rideshare-profit-calculator/static/js/runtime-main.85c0e2af.js.map",
-    "static/js/2.183a5b64.chunk.js": "/rideshare-profit-calculator/static/js/2.183a5b64.chunk.js",
-    "static/js/2.183a5b64.chunk.js.map": "/rideshare-profit-calculator/static/js/2.183a5b64.chunk.js.map",
-    "index.html": "/rideshare-profit-calculator/index.html",
-    "precache-manifest.a5ee12c5370342811be85cd4c41234a6.js": "/rideshare-profit-calculator/precache-manifest.a5ee12c5370342811be85cd4c41234a6.js",
-    "service-worker.js": "/rideshare-profit-calculator/service-worker.js",
-    "static/css/main.cf24bcfd.chunk.css.map": "/rideshare-profit-calculator/static/css/main.cf24bcfd.chunk.css.map",
-    "static/js/2.183a5b64.chunk.js.LICENSE.txt": "/rideshare-profit-calculator/static/js/2.183a5b64.chunk.js.LICENSE.txt"
+    "main.css": "/static/css/main.cf24bcfd.chunk.css",
+    "main.js": "/static/js/main.7dad56d7.chunk.js",
+    "main.js.map": "/static/js/main.7dad56d7.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8658d4f2.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8658d4f2.js.map",
+    "static/js/2.183a5b64.chunk.js": "/static/js/2.183a5b64.chunk.js",
+    "static/js/2.183a5b64.chunk.js.map": "/static/js/2.183a5b64.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.9aa8d777e814cfde7f7380beaceb67d8.js": "/precache-manifest.9aa8d777e814cfde7f7380beaceb67d8.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.cf24bcfd.chunk.css.map": "/static/css/main.cf24bcfd.chunk.css.map",
+    "static/js/2.183a5b64.chunk.js.LICENSE.txt": "/static/js/2.183a5b64.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.85c0e2af.js",
+    "static/js/runtime-main.8658d4f2.js",
     "static/js/2.183a5b64.chunk.js",
     "static/css/main.cf24bcfd.chunk.css",
-    "static/js/main.35d5695e.chunk.js"
+    "static/js/main.7dad56d7.chunk.js"
   ]
 }
