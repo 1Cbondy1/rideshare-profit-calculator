@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/rideshare-profit-calculator/precache-manifest.1a952d2848c3513de6c83218fa02e488.js"
+  "/rideshare-profit-calculator/precache-manifest.a5ee12c5370342811be85cd4c41234a6.js"
 );
 
 self.addEventListener('message', (event) => {
