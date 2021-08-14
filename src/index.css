@@ -372,3 +372,9 @@ input[type="range"]:active::-webkit-slider-thumb {
 input[type="range"]:focus::-webkit-slider-runnable-track {
     background: #006e6e;
 }
+
+/* Google adsense styles */
+
+ins.adsbygoogle[data-ad-status="unfilled"] {
+    display: none !important;
+}
