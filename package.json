@@ -2,7 +2,7 @@
   "name": "rideshare-cost-calculator",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://1cbondy1.github.io/rideshare-profit-calculator",
+  "homepage": "https://realridesharecost.com",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
